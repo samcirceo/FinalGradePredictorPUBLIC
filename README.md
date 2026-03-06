@@ -21,12 +21,13 @@ _This repository provides a high level overview of the project. The [complete pr
 - **Exploratory Data Analysis**: Visualized relationships between grades and other features to identify key predictive features to use in the model
 - **Feature Engineering**: created a **Custom Transformer** to combine student's absence from different semesters into one feature to use seamlessly in a pipeline
 - **Create Pipelines**: Built automated preprocessing pipeline to handle numeric, categorical, and ordinal data consistently to ensure new student data can be transformed and fed into the model efficiently
-- **Modeling**: Compared multiple regression models including **Linear Regression, Lasso Regression, Support Vector Regression, and Random Forest Regression**
-- **Evaluation**: Used **RMSE** **and R<sup>2</sup>** metrics to compare model performance
+- **Modeling**: Compared multiple regression models including **Linear Regression, Lasso Regression, Support Vector Regression**, and **Random Forest Regression**
+- Finetuning: Performed a **Grid Search** to determine the best hyperparameters 
+- **Evaluation**: Used **RMSE** and **R<sup>2</sup>** metrics to compare model performance
 
 ### Conclusions
 - Previous semester grades are the strongest predictor of final grades and models using these features achieve high accuracy
 - Predicting final grades without previous grades is more challenging and less accurate, highlighting the importance of early academic performance
 
-_See the complete project for key insights and business reccomendations along with future improvements._
+_See the complete project for key insights, business reccomendations, & future improvements._
 
